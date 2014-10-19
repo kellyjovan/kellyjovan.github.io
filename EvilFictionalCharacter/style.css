@@ -1,0 +1,12 @@
+.carousel{
+  height: 500px;
+}
+.carousel .item{
+    height: 500px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.carousel-inner> .item > img{
+  height: 500px;
+  width: 500%;
+}
