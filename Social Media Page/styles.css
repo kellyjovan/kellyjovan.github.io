@@ -1,0 +1,179 @@
+/*Both*/
+body{
+    background-color: #95B9C7;
+    padding: 10px;
+    background-attachment: fixed;
+    color: white;
+}
+.header{
+    height: 60px;
+    background-color: rgb(48, 144, 199);
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 30px;
+    top: 0px;
+    border: #FFF solid 1px;
+    line-height: 20px;
+    padding-left: 30px;
+    color: #FFF;
+    position: fixed;
+    width: 100%;
+}
+.header img{
+    width: 30px; 
+    height: 30px; 
+    float: right; 
+    margin-top: -30px
+}
+.chatIcon{
+    margin-right: 150px;
+}
+.profileHPic{
+    margin-right: 100px; 
+}
+.setIcon{
+    margin-right: 50px;
+}
+.banner{
+    float: left;
+}
+.searchbox{
+    /*float: right;*/
+    margin-top: 15px;
+    margin-right: 100px;
+    width: 30%;
+    height: 25px;
+    border-radius: 10px;
+}
+.aside, #friends, #main, #profileMain{
+    border: #FFF 2px solid;
+    border-radius: 10px;
+    background-color: rgba(48, 144, 199, .8);
+    padding: 3%;
+    margin: 10px;
+}
+#footer{
+    clear: both;
+    color: #2554C7;
+}
+
+/*Index.html*/
+a, a:visited, a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+.wrapper{
+    width: 100%;
+    margin-top: 100px;
+}
+.aside, #friends{
+    width: 13%;
+    position: fixed;
+    top: 120px;
+}
+.aside, #main{
+    float: left;
+}
+.aside{
+    text-align: center;
+}
+.aside h4:hover{
+    color: #E5E4E2;
+}
+#main{
+    width: 50%;
+    margin-left: 22%;
+}
+#main img{
+    width: 100%;
+}
+#friends{
+    float: right;
+    right: 20px;
+}
+.friendImg{
+    width: 25px;
+    height: 25px;
+}
+#friends li:hover{
+    border: #FFF 1px solid;
+    border-radius: 10px;
+    background: #3BB9FF;
+}
+#friends ul{
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#friends li{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.placeholderPost, .placeholderComment, .placeholderCommentMini{
+    background-color: rgba(255,255, 255, .8);
+    color: black;
+    text-align: left;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.placeholderPost{
+    clear: both;
+
+}
+.placeholderPost p, .placeholderComment p, .placeholderCommentMini p{
+    text-indent: 10px;
+}
+.placeholderComment{
+    width: 80%;
+    float: right;
+}
+.placeholderCommentMini{
+    width: 60%;
+    float: right;
+}
+.comment{
+    border: #FFF 1px solid;
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-indent: 10px;
+    float: right;
+    width: 80%;
+    height: 80px;
+    padding: 3%;
+}
+.pS, .pS1, .pS2{
+    background-color: red;
+    border-radius: 25px;
+    float: right;
+}
+.pS{
+    border: solid red 5px;
+}
+.pS1{
+    border: solid #4CC417 5px;
+}
+.pS2{
+    border: solid #EDE275 5px;
+}
+/*Profile Page*/
+#profilePic{
+    width: 100%;
+    border: solid white 1px;
+}
+#profileMain{
+    width: 70%;
+    float: right;
+}
+#profileMain h4, #profileMain p{
+    display: inline-block;
+    font-size: 24px;
+}
+#profileMain p{
+    text-indent: 10px;
+}

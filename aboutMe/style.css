@@ -1,0 +1,184 @@
+* {
+  margin:0;
+  padding:0;
+}
+header {
+  text-align: center;
+  background: url('https://lh3.ggpht.com/Y-MbEdimNWpNBwYV3DHZltS2uBlr1cjUTkedcukrRq2Z5zXhDNgI4B8WRc0RTEZFxWU=h900');
+  background-size: cover;
+  color: white;
+  }
+body{
+  background-color: rgb(194, 223, 255);
+  font-family: 'Oswald', sans-serif;
+  }
+article img{
+  width: 48%;
+  height: 200px;
+  margin: 5px;
+  display: inline-block;
+}
+.row{
+  text-align: center;
+}
+img{
+  margin-bottom: 10px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+ a:hover{
+  color: #2B60DE;
+  text-decoration: none;
+ }
+h1 {
+  font-size: 70px;
+  }
+ ul {
+  background: rgba(37, 84, 199, 1);
+  padding: 8px;
+  }
+.aboutMe{
+  text-indent: 20px;
+  border: 2px solid #FFF;
+  border-radius: 10px;
+  font-size: 26px;
+}
+.Hobbies{
+  float: left;
+  border: solid #FFF 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.hobbyList{
+  display: inline-block;
+  width: 50%;
+  float: left;  
+}
+.hobbyList img{
+  width: 50%;
+  height: 120px;
+}
+.carousel{
+  height: 500px;
+}
+.carousel .item{
+    height: 500px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.carousel-inner> .item > img{
+  height: 500px;
+  width: 500%;
+}
+.carousel-caption img{
+  height: 220px;
+  width: 320px;
+}
+.tab-pane{
+  padding: 20px;
+  margin: 300px 4%;
+}
+.menu{
+  z-index: 99;
+}
+.menu-margin {
+    margin-top:50px;
+}
+.content p {
+    margin-bottom:20px;
+}
+.sticky {
+    position:fixed;
+    top:0;
+}
+.jumbotron {
+  text-align: center;
+  color: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background-image: url(http://blog.metafreelancer.com/wp-content/uploads/2012/11/OutsourcedProjects1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/*Project*/
+/*.row > div{
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: rgba(0,0,0,0.1);
+    border:2px solid white;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 26px;
+  }
+.row > div > a{
+  color: #2B65EC;
+  text-shadow: 5px 5px 15px #FFF;
+}
+.row > div:nth-of-type(even){
+  float: right;
+}
+.row > div:nth-of-type(1){
+    background-image:url(images/Social-Media.png);
+    background-position: center;
+
+}
+.row > div:nth-of-type(2){
+    background-image: url(images/FlickrMaps.png);
+
+}
+.row > div:nth-of-type(6){
+    background-image:url(http://goodcomicbooks.com/wp-content/uploads/2011/05/thefurypanel4.gif);
+}*/
+/*Contact*/
+.contact-panel{
+  background-color: rgb(21, 105, 199);
+  border: 1px solid rgb(34 ,34, 34);
+  border-radius: 10px;
+  padding: 10px;
+  height: 580px;
+}
+.contact-panel h4{
+  color: #FFF;
+}
+.contactpanel{
+  float: right;
+  margin: 5px 10px;
+  height: 400px;
+}
+.emailMe{
+  margin-top:10px;
+} 
+.contact-panel .btn{
+  float: left;
+}
+input, textarea, button{
+  margin: 5px;
+  border-radius: 10px;
+  outline: 0px;
+}
+input{
+  height: 50px;
+}
+textarea{
+  height: 220px;
+  padding-top: 15px;
+}
+
+@media (max-width: 500px){
+  body{
+    background: #D1D0CE;
+  }
+  h1{
+    font-size: 36px;
+  }
+  li{
+    display: block;
+    padding: 5px;
+  }
+  .tab-content{
+    margin-left: 0px;
+  }
+}
