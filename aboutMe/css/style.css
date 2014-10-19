@@ -76,15 +76,11 @@ h1 {
   height: 220px;
   width: 320px;
 }
-.tab-pane{
-  padding: 20px;
-  margin: 300px 4%;
-}
 .menu{
   z-index: 99;
 }
-.menu-margin {
-    margin-top:50px;
+.menu-margin{
+  margin-top: 100px;
 }
 .content p {
     margin-bottom:20px;
@@ -93,45 +89,71 @@ h1 {
     position:fixed;
     top:0;
 }
+.tab-pane{
+  height: 100%;
+  margin: 0px 4%;
+}
+/* Custom page footer */
+.footer {
+  text-align: center;
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  color: white;
-  border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  background-image: url(http://blog.metafreelancer.com/wp-content/uploads/2012/11/OutsourcedProjects1.jpg);
-  background-size: cover;
-  background-position: center;
+  border-bottom: 1px solid #e5e5e5;
 }
-/*Project*/
-/*.row > div{
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-color: rgba(0,0,0,0.1);
-    border:2px solid white;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-    font-size: 26px;
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
   }
-.row > div > a{
-  color: #2B65EC;
-  text-shadow: 5px 5px 15px #FFF;
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
 }
-.row > div:nth-of-type(even){
-  float: right;
-}
-.row > div:nth-of-type(1){
-    background-image:url(images/Social-Media.png);
-    background-position: center;
 
-}
-.row > div:nth-of-type(2){
-    background-image: url(images/FlickrMaps.png);
+/*Project*/
 
+.projects{
+  color: black;
 }
-.row > div:nth-of-type(6){
-    background-image:url(http://goodcomicbooks.com/wp-content/uploads/2011/05/thefurypanel4.gif);
-}*/
+
 /*Contact*/
 .contact-panel{
   background-color: rgb(21, 105, 199);

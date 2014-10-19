@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    $(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
+
     var menu = $('.nav');
     var origOffsetY = menu.offset().top;
 
@@ -17,3 +21,4 @@ $(document).ready(function () {
 
 });
 $("#carousel").carousel();
+
