@@ -1,0 +1,68 @@
+a{
+	color: #FF2400;
+}
+a:hover{
+	text-decoration: none;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+h2{
+	text-indent: 30px;
+}
+.anchorLink:hover{
+	color: #FF2400;
+}
+.carousel{
+  height: 500px;
+}
+.carousel .item{
+    height: 500px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.carousel-inner> .item > img{
+  height: 500px;
+  width: 500%;
+}
+.content{
+	/*background: url("http://cf067b.medialib.glogster.com/supersaiyinppg11/media/93/931c9aefb14d83a856a3e1b445fcf7b014fae640/bloody-wall-paper.png");*/
+	height: 700px;
+	background-color: black;
+	border-bottom: white solid 1px;
+	color: white;
+}
+.hidden{
+	visibility: hidden;
+}
+.hiddenAnchor{
+	background-color: #282828;
+	visibility: hidden;
+	position: fixed;
+	bottom: 0px;
+	z-index: 98;
+	padding: 5px;
+}
+.menu{
+	background-color:#282828;
+	height: 50px;
+	padding: 5px;
+	z-index: 99;
+}
+.nav-pills > li.active > a, .nav-pills>li.active>a:hover {
+    background-color: #FF2400;
+	color: black;
+	font-weight: bold;
+}
+.nav-pills > li> a:hover{
+	background-color: #FF2400;
+	color: black;
+	font-weight: bold;
+}
+.sticky{
+	position: fixed;
+	top: 0px;
+}
+.visible{
+	visibility: visible;
+}
