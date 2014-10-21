@@ -23,6 +23,9 @@ $(document).ready(function () {
     $("#carousel").carousel();
 
     $('a').click(function(){
+        console.log('clicked on a ? ')
+        console.log($( $(this).attr('href') ).offset().top);
+        console.log( $(this).attr('href'));
     	$('html, body').animate({
         	scrollTop: $( $(this).attr('href') ).offset().top
     	}, 500);
