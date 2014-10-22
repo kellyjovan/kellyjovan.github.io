@@ -19,6 +19,21 @@ $(document).ready(function () {
         }
     }
 
+    var winHeight = $(window).height();
+    var winWidth = $(window).width();
+
+    console.log(winHeight);
+    console.log(winWidth);
+
+    if(winWidth >= 1000 && winHeight >= 600){
+        console.log("Larger than 1000 by 600");
+        $('.container-fluid').height(850);
+        $('.aboutMain').height(600);
+        $('.aboutInfo').height(300);
+    } else {
+        console.log("Smaller");
+    }
+
     document.onscroll = scroll;
     $("#carousel").carousel();
 

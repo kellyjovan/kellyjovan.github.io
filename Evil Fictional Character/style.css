@@ -19,7 +19,7 @@ h2{
 	background-color: rgba(60, 92, 175, .3);
 	border: 1px solid lightblue;
 	border-radius: 5px;
-	font-size: 	16px;
+	font-size: 	14px;
 	padding: 5px;
 }
 .aboutMain{
@@ -35,20 +35,20 @@ h2{
 	color: #FFF;
 }
 .carousel{
-  height: 500px;
+  height: 600px;
 }
 .carousel .item{
-    height: 500px;
+    height: 600px;
     margin-bottom: 60px;
     width: 100%;
 }
 .carousel-inner> .item > img{
-  height: 500px;
-  width: 500%;
+  height: 600px;
+  width: 100%;
 }
 .container-fluid{
 	/*background: url("http://cf067b.medialib.glogster.com/supersaiyinppg11/media/93/931c9aefb14d83a856a3e1b445fcf7b014fae640/bloody-wall-paper.png");*/
-	height: 700px;
+	height: 650px;
 	background-color: black;
 	border-bottom: white solid 1px;
 	color: white;
