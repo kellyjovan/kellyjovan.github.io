@@ -1,5 +1,5 @@
 a{
-	color: #FF2400;
+	color: #FFF;
 }
 #top{
 	position:absolute;
@@ -15,8 +15,24 @@ body{
 h2{
 	text-indent: 30px;
 }
+.about{
+	background-color: rgba(60, 92, 175, .3);
+	border: 1px solid lightblue;
+	border-radius: 5px;
+	font-size: 	16px;
+	padding: 5px;
+}
+.aboutMain{
+	height: 450px;
+	text-indent: 10px;
+}
+.aboutInfo{
+	height: 225px;
+	margin-left: 20px;
+	font-family: 'Roboto', sans-serif;
+}
 .anchorLink:hover{
-	color: #FF2400;
+	color: #FFF;
 }
 .carousel{
   height: 500px;
@@ -30,7 +46,7 @@ h2{
   height: 500px;
   width: 500%;
 }
-.content{
+.container-fluid{
 	/*background: url("http://cf067b.medialib.glogster.com/supersaiyinppg11/media/93/931c9aefb14d83a856a3e1b445fcf7b014fae640/bloody-wall-paper.png");*/
 	height: 700px;
 	background-color: black;
@@ -41,7 +57,7 @@ h2{
 	visibility: hidden;
 }
 .hiddenAnchor{
-	background-color: #282828;
+	background-color: #3252F4;
 	visibility: hidden;
 	position: fixed;
 	bottom: 0px;
@@ -49,18 +65,18 @@ h2{
 	padding: 5px;
 }
 .menu{
-	background-color:#282828;
+	background-color:#3252F4;
 	height: 50px;
 	padding: 5px;
 	z-index: 99;
 }
 .nav-pills > li.active > a, .nav-pills>li.active>a:hover {
-    background-color: #FF2400;
+    background-color: #7898FF;
 	color: black;
 	font-weight: bold;
 }
 .nav-pills > li> a:hover{
-	background-color: #FF2400;
+	background-color: #7898FF;
 	color: black;
 	font-weight: bold;
 }
@@ -70,4 +86,16 @@ h2{
 }
 .visible{
 	visibility: visible;
+}
+#about{
+	background: url(images/akamegakill_Esdeath.jpg);
+	background-size: cover;
+}
+#contact{
+	background: url(images/Esdeath_and_her_army.png);
+	background-size: cover;
+}
+#store{
+	background: url(images/Esdeath_and_Tatsumi.jpg);
+	background-size: cover;
 }
