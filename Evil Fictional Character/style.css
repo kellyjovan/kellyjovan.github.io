@@ -1,11 +1,6 @@
 a{
 	color: #FFF;
 }
-#top{
-	position:absolute;
-	top:0;
-	z-index:-1;
-}
 a:hover{
 	text-decoration: none;
 }
@@ -14,6 +9,9 @@ body{
 }
 h2{
 	text-indent: 30px;
+}
+textarea{
+	height: 200px;
 }
 .about{
 	background-color: rgba(60, 92, 175, .3);
@@ -53,6 +51,13 @@ h2{
 	border-bottom: white solid 1px;
 	color: white;
 }
+.form{
+	background-color: rgba(229, 228, 226, .7);
+	padding: 15px;
+	height: 500px;
+	padding: 5px;
+	border-radius: 5px;
+}
 .hidden{
 	visibility: hidden;
 }
@@ -64,11 +69,22 @@ h2{
 	z-index: 98;
 	padding: 5px;
 }
+.inline{
+	display: inline;
+}
+.last_name{
+	margin-left: 16.5%;
+}
 .menu{
 	background-color:#3252F4;
 	height: 50px;
 	padding: 5px;
 	z-index: 99;
+}
+.name{
+	border-radius: 5px;
+	height: 40px;
+	padding: 3px;
 }
 .nav-pills > li.active > a, .nav-pills>li.active>a:hover {
     background-color: #7898FF;
@@ -98,4 +114,9 @@ h2{
 #store{
 	background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/Esdeath_and_Tatsumi.jpg);
 	background-size: cover;
+}
+#top{
+	position:absolute;
+	top:0;
+	z-index:-1;
 }

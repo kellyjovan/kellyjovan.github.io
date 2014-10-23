@@ -93,15 +93,21 @@
 		<div class="container-fluid" id="contact">
 			<br>
 			<br>
-			<a name="contact" id="contact" class="anchorLink"><strong><h2>Contact</h2></strong></a>
+			<a name="contact" id="contact" class="anchorLink"></a>
 			<div class="container">
-				<input placeholder="First Name">
-				<input placeholder="Last Name">
-				<p>radio button about purpose</p>
-				<textarea>
-				<button class="btn btn-primary">Submit</button>
-
-			</div>>
+				<form class="form">
+					<center><strong><h2>Contact</h2></strong></center>
+					<input class="col-md-5 col-lg-5 name first_name" placeholder="First Name">
+					<input class="col-md-5 col-lg-5 name last_name" placeholder="Last Name">
+					
+					<p class="inline">Purpose</p>
+					<input type="radio" name="reason" value="join">Join the Jaegers
+					<input type="radio" name="reason" value="death">Other
+					<textarea class="form-control"></textarea>
+					<br>	
+					<button class="btn btn-primary">Submit</button>
+				</form>
+			</div>
 			</div>
 		</div>
 	</body>
