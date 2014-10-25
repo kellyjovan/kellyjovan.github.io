@@ -1,0 +1,122 @@
+a{
+  color: #FFF;
+}
+a:hover{
+  text-decoration: none;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+}
+h2{
+  text-indent: 30px;
+}
+textarea{
+  height: 200px;
+}
+.about{
+  background-color: rgba(60, 92, 175, .3);
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  font-size:  16px;
+  padding: 5px;
+}
+.aboutMain{
+  height: 450px;
+  text-indent: 10px;
+}
+.aboutInfo{
+  height: 225px;
+  margin-left: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.anchorLink:hover{
+  color: #FFF;
+}
+.carousel{
+  height: 600px;
+}
+.carousel .item{
+    height: 600px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.carousel-inner> .item > img{
+  height: 600px;
+  width: 100%;
+}
+.container-fluid{
+  /*background: url("http://cf067b.medialib.glogster.com/supersaiyinppg11/media/93/931c9aefb14d83a856a3e1b445fcf7b014fae640/bloody-wall-paper.png");*/
+  height: 650px;
+  background-color: black;
+  border-bottom: white solid 1px;
+  color: white;
+}
+.form{
+  background-color: rgba(229, 228, 226, .7);
+  padding: 15px;
+  height: 500px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.hidden{
+  visibility: hidden;
+}
+.hiddenAnchor{
+  background-color: #3252F4;
+  visibility: hidden;
+  position: fixed;
+  bottom: 0px;
+  z-index: 98;
+  padding: 5px;
+}
+.inline{
+  display: inline;
+}
+.last_name{
+  margin-left: 16.5%;
+}
+.menu{
+  background-color:#3252F4;
+  height: 50px;
+  padding: 5px;
+  z-index: 99;
+}
+.name{
+  border-radius: 5px;
+  height: 40px;
+  padding: 3px;
+}
+.nav-pills > li.active > a, .nav-pills>li.active>a:hover {
+    background-color: #7898FF;
+  color: black;
+  font-weight: bold;
+}
+.nav-pills > li> a:hover{
+  background-color: #7898FF;
+  color: black;
+  font-weight: bold;
+}
+.sticky{
+  position: fixed;
+  top: 0px;
+}
+.visible{
+  visibility: visible;
+}
+#about{
+  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/akamegakill_Esdeath.jpg);
+  background-size: cover;
+}
+#contact{
+  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/Esdeath_and_her_army.png);
+  background-size: cover;
+}
+#store{
+  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/Esdeath_and_Tatsumi.jpg);
+  background-size: cover;
+}
+#top{
+  position:absolute;
+  top:0;
+  z-index:-1;
+}
