@@ -1,5 +1,6 @@
 a{
-  color: #FFF;
+  color: #000;
+  font-size:  18px
 }
 a:hover{
   text-decoration: none;
@@ -14,31 +15,34 @@ textarea{
   height: 200px;
 }
 .about{
-  background-color: rgba(60, 92, 175, .3);
-  border: 1px solid lightblue;
+  background-color: rgba(255, 216, 1, .3);
+  border: 2px solid #FFFF33;
   border-radius: 5px;
-  font-size:  16px;
   padding: 5px;
 }
 .aboutMain{
   height: 450px;
   text-indent: 10px;
+  font-size:  24px;
 }
 .aboutInfo{
   height: 225px;
   margin-left: 20px;
   font-family: 'Roboto', sans-serif;
+  font-size:  16px;
 }
 .anchorLink:hover{
-  color: #FFF;
+  color: #000;
 }
 .carousel{
   height: 600px;
+  background-color: black;
 }
 .carousel .item{
     height: 600px;
     margin-bottom: 60px;
     width: 100%;
+    background-color: black;
 }
 .carousel-inner> .item > img{
   height: 600px;
@@ -62,7 +66,7 @@ textarea{
   visibility: hidden;
 }
 .hiddenAnchor{
-  background-color: #3252F4;
+  background-color: #F88017;
   visibility: hidden;
   position: fixed;
   bottom: 0px;
@@ -76,8 +80,8 @@ textarea{
   margin-left: 16.5%;
 }
 .menu{
-  background-color:#3252F4;
-  height: 50px;
+  background-color:#F88017;
+  height: 55px;
   padding: 5px;
   z-index: 99;
 }
@@ -87,13 +91,13 @@ textarea{
   padding: 3px;
 }
 .nav-pills > li.active > a, .nav-pills>li.active>a:hover {
-    background-color: #7898FF;
-  color: black;
+  background-color: #000;
+  color: #F88017;
   font-weight: bold;
 }
 .nav-pills > li> a:hover{
-  background-color: #7898FF;
-  color: black;
+  background-color:#000;
+  color: #F88017;
   font-weight: bold;
 }
 .sticky{
@@ -104,15 +108,23 @@ textarea{
   visibility: visible;
 }
 #about{
-  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/akamegakill_Esdeath.jpg);
+  background-color: #FFDB58;
   background-size: cover;
+  color: #F88017;
 }
-#contact{
-  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/Esdeath_and_her_army.png);
+#photo{
+  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/evil_fictional_character/images/Seryu_Ubiquitous_main.png);
   background-size: cover;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  height: 230px;
+  font-family: 'Roboto', sans-serif;
 }
+/*#photo:hover {
+-webkit-filter: invert(100%);
+}*/
 #store{
-  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/Esdeath_and_Tatsumi.jpg);
+  background: url();
   background-size: cover;
 }
 #top{
