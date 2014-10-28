@@ -17,7 +17,7 @@ textarea{
 	background-color: rgba(60, 92, 175, .3);
 	border: 1px solid lightblue;
 	border-radius: 5px;
-	font-size: 	16px;
+	font-size: 	18px;
 	padding: 5px;
 }
 .aboutMain{
@@ -52,11 +52,15 @@ textarea{
 	color: white;
 }
 .form{
-	background-color: rgba(229, 228, 226, .7);
+	background-color: rgba(229, 228, 226, .9);
 	padding: 15px;
 	height: 500px;
 	padding: 5px;
 	border-radius: 5px;
+	margin-top: 35px;
+}
+.form input{
+	color: black;
 }
 .hidden{
 	visibility: hidden;
@@ -96,6 +100,7 @@ textarea{
 	color: black;
 	font-weight: bold;
 }
+
 .sticky{
 	position: fixed;
 	top: 0px;
@@ -107,11 +112,11 @@ textarea{
 	background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/akamegakill_Esdeath.jpg);
 	background-size: cover;
 }
-#contact{
+#Contact{
 	background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/Esdeath_and_her_army.png);
 	background-size: cover;
 }
-#store{
+#Store{
 	background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/Evil%20Fictional%20Character/Images/Esdeath_and_Tatsumi.jpg);
 	background-size: cover;
 }

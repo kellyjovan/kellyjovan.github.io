@@ -113,16 +113,17 @@ textarea{
   color: #F88017;
 }
 #photo{
-  background: url(https://raw.githubusercontent.com/kellyjovan/kellyjovan.github.io/master/evil_fictional_character/images/Seryu_Ubiquitous_main.png);
+  background: url(http://media.animevice.com/uploads/0/3419/758047-1400791647762.jpg);
   background-size: cover;
+  background-position: center;
   margin-bottom: 20px;
   margin-left: 20px;
-  height: 230px;
+  height: 250px;
   font-family: 'Roboto', sans-serif;
 }
-/*#photo:hover {
+#photo:hover {
 -webkit-filter: invert(100%);
-}*/
+}
 #store{
   background: url();
   background-size: cover;
