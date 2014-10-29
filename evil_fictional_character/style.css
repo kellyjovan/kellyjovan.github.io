@@ -11,6 +11,9 @@ body{
 h2{
   text-indent: 30px;
 }
+h3{
+  text-align: center;
+}
 textarea{
   height: 200px;
 }
@@ -33,6 +36,9 @@ textarea{
 }
 .anchorLink:hover{
   color: #000;
+}
+.btn1{
+  float: right;
 }
 .carousel{
   height: 600px;
@@ -123,10 +129,6 @@ textarea{
 }
 #photo:hover {
 -webkit-filter: invert(100%);
-}
-#store{
-  background: url();
-  background-size: cover;
 }
 #top{
   position:absolute;
