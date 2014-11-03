@@ -1,79 +1,34 @@
-* {
-  margin:0;
-  padding:0;
+a:hover{
+  text-decoration: none;
 }
-header {
-  text-align: center;
-  background: url('https://lh3.ggpht.com/Y-MbEdimNWpNBwYV3DHZltS2uBlr1cjUTkedcukrRq2Z5zXhDNgI4B8WRc0RTEZFxWU=h900');
-  background-size: cover;
-  color: white;
-  }
 body{
   background-color: rgb(194, 223, 255);
   font-family: 'Oswald', sans-serif;
-  }
-.Hobbies img{
-  width: 48%;
-  height: 200px;
-  margin: 5px;
-  display: inline-block;
 }
-.row{
+h4{
   text-align: center;
 }
-img{
-  margin-bottom: 20px;
-  width: 100%;
-  height: 150px;
+footer{
+  margin-top: 10px;
+  text-align: center;
 }
-a{
-  color: white;
-  text-decoration: none;
-}
- a:hover{
-  color: #2B60DE;
-  text-decoration: none;
- }
-h1 {
-  font-size: 70px;
-  }
- ul {
-  background: rgba(37, 84, 199, 1);
-  padding: 8px;
-  }
 .aboutMe{
   text-indent: 20px;
   border: 2px solid #FFF;
   border-radius: 10px;
-  font-size: 26px;
-  padding: 10px;
-}
-.info{
-  float: left;
-  border: solid #FFF 2px;
-  border-radius: 10px;
-  padding: 10px;
-}
-.hobbyList{
-  display: inline-block;
-  width: 50%;
-  float: left;  
-}
-.hobbyList img{
-  width: 50%;
-  height: 120px;
+  font-size: 18px;
 }
 .carousel{
-  height: 500px;
+  height: 600px;
 }
 .carousel .item{
-    height: 500px;
+    height: 600px;
     margin-bottom: 60px;
     width: 100%;
 }
 .carousel-inner> .item > img{
-  height: 500px;
-  width: 500%;
+  height: 600px;
+  width: 100%;
 }
 .carousel-caption img{
   height: 220px;
@@ -81,48 +36,23 @@ h1 {
 }
 .menu{
   z-index: 99;
+  background: rgba(37, 84, 199, 1);
+  padding: 8px;
 }
-.menu-margin{
-  margin-top: 100px;
+.menu li{
+  margin: 0px 5px;
 }
-.content p {
-    margin-bottom:20px;
-}
-.sticky {
-    position:fixed;
-    top:0;
-}
-.tab-pane{
-  height: 100%;
-  margin: 0px 4%;
-}
-/* Custom page footer */
-.footer {
-  text-align: center;
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
 /* Main marketing message and sign up button */
-.jumbotron {
+.jumbotron {  
   text-align: center;
   border: 2px solid #e4e4e2;
   border-radius: 10px;
-}
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+  height: 300px;
+  margin: 65px;
+  background: url(http://users.rowan.edu/~becket98/portfolios.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 300px;   
 }
 
 /* Supporting marketing content */
@@ -132,7 +62,10 @@ h1 {
 .marketing p + h4 {
   margin-top: 28px;
 }
-
+.sticky {
+    position:fixed;
+    top:0;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -151,20 +84,14 @@ h1 {
     border-bottom: 0;
   }
 }
-
-/*Project*/
-
-.projects{
-  color: black;
-}
-
 /*Contact*/
 .contact-panel{
   background-color: rgb(21, 105, 199);
   border: 1px solid rgb(34 ,34, 34);
   border-radius: 10px;
   padding: 10px;
-  height: 580px;
+  height: 500px;
+  margin-top: 50px;
 }
 .contact-panel h4{
   color: #FFF;
