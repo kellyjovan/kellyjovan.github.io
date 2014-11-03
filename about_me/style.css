@@ -12,6 +12,9 @@ footer{
   margin-top: 10px;
   text-align: center;
 }
+li{
+  list-style: none;
+}
 .aboutMe{
   text-indent: 20px;
   border: 2px solid #FFF;
