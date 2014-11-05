@@ -18,9 +18,8 @@ textarea{
   height: 200px;
 }
 video{
-  width: 80%;
-  height: 600px;
-  margin-left: 10%;
+  width: 50%;
+  height: 400px;
 }
 @media (max-width: 600px) {
   video{
