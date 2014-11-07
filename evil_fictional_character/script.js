@@ -34,6 +34,11 @@ $(document).ready(function () {
         console.log("Smaller");
     }
 
+    $( ".btn-skill" ).click(function() {
+        $('.jumbotron').hide();
+        $('.skills').show();
+    });
+
     document.onscroll = scroll;
     $("#carousel").carousel();
 
