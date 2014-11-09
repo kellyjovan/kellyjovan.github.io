@@ -38,7 +38,20 @@ $(document).ready(function () {
         $('.jumbotron').hide();
         $('.skills').show();
     });
-
+    
+    $('.equip-btn').click(function(){
+      $('.equip-btn, .skill-btn, .jumbotron').hide();
+      $('.equipment, .back').show();
+    });
+    $('.skill-btn').click(function(){
+      $('.equip-btn, .skill-btn, .jumbotron').hide();
+      $('.skills, .back').show();
+    });
+    $('.back').click(function(){
+      $('.equip-btn, .skill-btn, .jumbotron').show();
+      $('.equipment, .skills, .back').hide();
+    });
+    
     document.onscroll = scroll;
     $("#carousel").carousel();
 
