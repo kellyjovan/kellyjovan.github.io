@@ -52,6 +52,13 @@ $(document).ready(function () {
       $('.equipment, .skills, .back').hide();
     });
     
+    $('.normal').click(function(){
+      $(".koro").attr("src","http://img2.wikia.nocookie.net/__cb20140803220237/akamegakill/images/6/64/Coro.png");
+    });
+    $('.berserker').click(function(){
+     $(".koro").attr("src","http://media.animevice.com/uploads/1/18405/777985-coro_berserker_mode.png");
+    });
+    
     document.onscroll = scroll;
     $("#carousel").carousel();
 
