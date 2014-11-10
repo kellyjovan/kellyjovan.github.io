@@ -33,6 +33,13 @@ $(document).ready(function () {
     } else {
         console.log("Smaller");
     }
+    
+    var cart = 0;
+    $('.add').click(function(){
+      cart = cart + 1;
+      $( ".cart" ).text( "You now have " + cart + " items in your cart" );
+      $( ".cart" ).show( 500 ).delay( 2000 ).hide( 500 );
+    });
 
     $( ".btn-skill" ).click(function() {
         $('.jumbotron').hide();

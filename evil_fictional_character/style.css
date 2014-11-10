@@ -82,6 +82,21 @@ video{
   height: 600px;
   width: 100%;
 }
+.cart{
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid lightgray;
+  height: 60px;
+  padding-top: 10px;
+  display: none;
+  background: orange;
+  border: 2px solid #FFFF33;
+  border-radius: 5px;
+  z-index: 100;
+}
 .container-fluid{
   /*background: url("http://cf067b.medialib.glogster.com/supersaiyinppg11/media/93/931c9aefb14d83a856a3e1b445fcf7b014fae640/bloody-wall-paper.png");*/
   height: 650px;
@@ -97,13 +112,6 @@ video{
 }
 .equipment p, .skills p{
   font-size: 12px;
-}
-.form{
-  background-color: rgba(229, 228, 226, .7);
-  padding: 15px;
-  height: 500px;
-  padding: 5px;
-  border-radius: 5px;
 }
 .hidden{
   visibility: hidden;
@@ -125,19 +133,11 @@ video{
   background-size: 100% 100%;
   margin-bottom: 10px;
 }
-.last_name{
-  margin-left: 16.5%;
-}
 .menu{
   background-color:#F88017;
   height: 55px;
   padding: 5px;
   z-index: 99;
-}
-.name{
-  border-radius: 5px;
-  height: 40px;
-  padding: 3px;
 }
 .nav-pills > li.active > a, .nav-pills>li.active>a:hover {
   background-color: #000;
