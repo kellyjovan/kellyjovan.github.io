@@ -3,6 +3,7 @@ body{
   padding-top: 5em;
   background-attachment: fixed;
   font-family: 'Merriweather', serif;
+  color: #5a5a5a;
 }
 
 /***************************************************************************/
@@ -17,7 +18,10 @@ header{
   left: 0;
   z-index: 99;
 }
-
+a, a:hover, a:visited{
+  color: #5a5a5a;
+  text-decoration: none;
+}
 /***************************************************************************/
 /* Navbar                                                                  */
 /***************************************************************************/
@@ -35,16 +39,16 @@ nav > ul{
   width: 60%;
 }
 nav>ul>li{
-  width: 15%;
+  width: 18%;
   display: inline-block;
   border-right: solid rgb(255,243,151) 1px;
-  padding: 0.25em 0.6em 0.25em 1em;
+  text-align: center;
+  padding: 0.25em 0em;
   margin: 0 1em 0 1em; 
   height: 3.40em;
   line-height: 3em;
 }
-
-nav>ul>li:hover{
+nav>ul>li:hover, nav>ul>li>a:hover{
   color: #FFED89;
   -webkit-transition: color .5s;
   transition: color .5s;
@@ -142,6 +146,9 @@ nav>ul>li:hover{
   bottom: 1em;
   right: 1em;
   z-index: 999;
+}
+.back_to_top img{
+  width: 5em;
 }
 
 /***************************************************************************/
