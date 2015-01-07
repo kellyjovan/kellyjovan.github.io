@@ -33,7 +33,39 @@ $(document).ready(function () {
     } else {
         console.log("Smaller");
     }
+    
+    var cart = 0;
+    $('.add').click(function(){
+      cart = cart + 1;
+      $( ".cart" ).text( "You now have " + cart + " items in your cart" );
+      $( ".cart" ).show( 500 ).delay( 2000 ).hide( 500 );
+    });
 
+    $( ".btn-skill" ).click(function() {
+        $('.jumbotron').hide();
+        $('.skills').show();
+    });
+    
+    $('.equip-btn').click(function(){
+      $('.equip-btn, .skill-btn, .jumbotron').hide();
+      $('.equipment, .back').show();
+    });
+    $('.skill-btn').click(function(){
+      $('.equip-btn, .skill-btn, .jumbotron').hide();
+      $('.skills, .back').show();
+    });
+    $('.back').click(function(){
+      $('.equip-btn, .skill-btn, .jumbotron').show();
+      $('.equipment, .skills, .back').hide();
+    });
+    
+    $('.normal').click(function(){
+      $(".koro").attr("src","http://img2.wikia.nocookie.net/__cb20140803220237/akamegakill/images/6/64/Coro.png");
+    });
+    $('.berserker').click(function(){
+     $(".koro").attr("src","http://media.animevice.com/uploads/1/18405/777985-coro_berserker_mode.png");
+    });
+    
     document.onscroll = scroll;
     $("#carousel").carousel();
 
