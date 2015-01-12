@@ -23,29 +23,17 @@
       </a> -->
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">Menu<span class="caret"></span></li>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            <li role="presentation">
-              <a role="menuitem" href="breakfast.html">
-                Breakfast
-              </a>
-            </li>
-            <li>
-              <a role="menuitem" href="lunch.html">
-                Lunch
-              </a>
-            </li>
-            <li>
-              <a role="menuitem" href="dinner.html">
-                Dinner
-              </a>
-            </li>
-            <li>
-              <a role="menuitem" href="">
-                Dessert
-              </a>
-            </li>
-          </ul>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              Menu <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="breakfast.html">Breakfast</a></li>
+              <li><a href="lunch.html">Lunch</a></li>
+              <li><a href="dinner.html">Dinner</a></li>
+              <li><a href="dessert.html">Dessert</a></li>
+            </ul>
+          </div>
           <li><a href="contact.html">Contact Us</a></li>
           <li>Affliates</li>
         </ul>
