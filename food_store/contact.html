@@ -16,35 +16,26 @@
   <header>
     <div class="container">
       <nav class="col-sm-12 col-md-12 col-lg-12">
+      <!-- <a class="navbar-brand" href="#">
+        <img alt="Brand" src="https://cdn2.iconfinder.com/data/icons/tasty-bites-icon-set/512/hambruger.png">
+      </a> -->
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">Menu<span class="caret"></span></li>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-            <li role="presentation">
-              <a role="menuitem">
-                Breakfast
-              </a>
-            </li>
-            <li>
-              <a role="menuitem">
-                Lunch
-              </a>
-            </li>
-            <li>
-              <a role="menuitem">
-                Dinner
-              </a>
-            </li>
-            <li>
-              <a role="menuitem">
-                Dessert
-              </a>
-            </li>
-          </ul>
-          <li>Contact Us</li>
+          <div class="btn-group">
+            <button type="button" class="btn btn_nav dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              Menu <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="breakfast.html">Breakfast</a></li>
+              <li><a href="lunch.html">Lunch</a></li>
+              <li><a href="dinner.html">Dinner</a></li>
+              <li><a href="dessert.html">Dessert</a></li>
+            </ul>
+          </div>
+          <li><a href="contact.html">Contact Us</a></li>
           <li>Affliates</li>
         </ul>
-         <div class="col-lg-4" id="search">
+         <div class="col-sm-3 col-md-3 col-lg-3" id="search">
             <div class="form-group">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search" id="inputGroup"/>
