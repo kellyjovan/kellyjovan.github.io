@@ -164,7 +164,7 @@ nav>ul>li:hover, nav>ul>li>a:hover, .btn_nav:hover{
 /***************************************************************************/
 
 .menu{
-  height: 500px;
+  /*height: 500px;*/
 }
 .menu h1{
   color: #FFED89;
