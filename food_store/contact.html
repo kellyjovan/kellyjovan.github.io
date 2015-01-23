@@ -36,6 +36,7 @@
           <li>Affliates</li>
         </ul>
          <div class="col-sm-3 col-md-3 col-lg-3" id="search">
+            
             <div class="form-group">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search" id="inputGroup"/>
@@ -49,7 +50,36 @@
     </div>
   </header>
   
-  <footer>
+  <div class="container contact_container">
+    <h1>Leave a Message</h1>
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="inputName" class="col-sm-2 control-label">Name</label>
+        <div class="col-sm-10">
+          <input type="name" class="form-control" id="name" placeholder="Enter Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" placeholder="Enter Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Leave A Message</label>
+        <div class="col-sm-10">
+          <textarea class="form-control" rows="6" placeholder="Leave a Message"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-warning" id="submit" name="submit">Send Message <span class="glyphicon glyphicon-envelope" aria-hidden="true"></button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <footer class="bottom">
     <ul>
       <li><img src="http://d24wuq6o951i2g.cloudfront.net/img/events/id/126/126155/assets/c33.scripted-logo.jpg" /><p>ScriptEd</p></li>
     </ul>
