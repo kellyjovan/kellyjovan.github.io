@@ -105,7 +105,8 @@ nav>ul>li:hover, nav>ul>li>a:hover, .btn_nav:hover{
   width: 100%;
   height: 200px;
 }
-.img_content:before{
+
+.img_content:before, .main_img_content:before{
   text-align: center;
   content: attr(alt);
   white-space: pre;
@@ -124,6 +125,10 @@ nav>ul>li:hover, nav>ul>li>a:hover, .btn_nav:hover{
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
+}
+.main_img_content:hover:before, .main_img_content:focus:before{
+  content: attr(alt) '\A' '\A' attr(text) '\A' attr(text2) '\A' attr(text3) '\A' attr(text4);
+  height: 40%;
 }
 .img_content:hover:before, .img_content:focus:before {
     /*opacity: 0;*/
